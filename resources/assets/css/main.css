@@ -86,8 +86,16 @@ body{
 	position: relative;
 	top: -40px;
 }
-#service h3{
+#service {
 	text-align: center;
-	position: relative;
-	top: -175px;
+	top: -26px;
+}
+#specialized {
+	margin-left: 15%;
+}
+#other_service{
+	text-align:center;
+}
+#other_service ul->li{
+	font-size:20px;
 }

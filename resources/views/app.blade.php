@@ -63,7 +63,14 @@
 	</div>
 	<div class="summary row">
 	<div id="summary1" class="col-md-8">
-	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders:</p>	
+	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders:</p>
+	<div id="service" class="col-md-12">
+		<h3 class="col-md-12">Service</h3>
+		<img src="/img/05.png" />
+		<img src="/img/06.png" />
+		<img src="/img/05.png" />
+		<img src="/img/06.png" />
+		</div>
 	</div>
 	<div id="queryForm" class="col-xs-12 col-sm-12 col-md-4">
 				<h2>Contact Us Form</h2>
@@ -83,10 +90,41 @@
 					<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 				</form>
 	</div>
-	<div id="service" class="col-md-8">
-	<h3>Service</h3>
-	
+	<div id="specialized" class="col-md-12">
+	<img class="img-responsive" src="/img/specialized.png" />
 	</div>
+	<div class="col-md-2 col-md-offset-1">
+	<img class="img-responsive" src="/img/Fertility1.png" />
+	<p>Natural Fertility Support IVF Support</p>
+	</div>
+	<div class="col-md-2">
+	<img class="img-responsive" src="/img/02.png" />
+	<p>Miscarriage Prevention, Morning Sick Pregnancy Care,Labor Induction</p>
+	</div>
+	<div class="col-md-2">
+	<img class="img-responsive" src="/img/02.png" />
+	<p>Menopause, Endometriosis PCOS，PMS, Irregular Periods</p>
+	</div>
+	<div class="col-md-2">
+	<img class="img-responsive" src="/img/03-pain.png" />
+	<p>Neck, shoulder and Back Pain, Sciatica Headache, Sports Injuries, Arthritis</p>
+	</div>
+	<div class="col-md-2">
+	<img class="img-responsive" src="/img/04.png" />
+	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
+	</div>
+	<div id="other_service" class="col-md-12">
+		<h3>We also treat other general and difficult conditions, such as:</h3>
+		<ul>
+			<li>Skin Issues: Acne, Eczema, Urticaria(Hives), Shingles, Alopecia, Neurodermatitis,</li>
+			<li>Digestive Disorder: Diarrhea, Constipation, IBS, Gastritis, Reflux</li>
+			<li>Respiratory Disorders: Common Cold, Flu, Hayfever, Asthma, Rhinitis, Sinusitis, Chronic Cough</li>
+			<li>Nerve System Diseases: Facioplegia, Apoplectic Sequela, Trigeminal Neuralgia </li>
+			<li>Men’s Health: Low Libido, Impotence</li>
+			<li>Other Conditions: Urinary Disorder, Weight Loss, Quit Smoking, Cancer Support</li>
+		</ul>
+	</div>
+	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?center=&amp;q=434 Cambridge Street, Floreat WA, 6014, -37.8097822, 144.9784406&amp;zoom=14&amp;size=300x300&amp;output=embed&amp;iwloc=near"></iframe>
 	
 
 	@yield('content')
