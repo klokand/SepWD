@@ -4,35 +4,22 @@ body{
 	background-repeat:repeat;
 	color:#e0d06f;
 }
+.container{
+}
 
 /*topbar*/
-#topbar .logo{
-	position: fixed;
-	left: 10%;
-	padding-top: 5px;
-}
-#topbar .contact{
-	position:fixed;
-	right:10%;
-	text-align:right;
-}
-#topbar .contact img{
-	width:45px;
+#topbar .contact img.phone{
+	width:10%;
 }
 
 /*nav bar*/
 #custom-bootstrap-menu{
-	position: fixed;
-	top: 40%;
-	left: 10%;
-	width: 80%;
-	align-content: center;
 }
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(119, 119, 119, 1);
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 21px;
+    font-size: 19px;
     background-color: rgba(98, 28, 91, 1);
     border-width: 1px;
     border-radius: 4px;
@@ -72,4 +59,35 @@ body{
 }
 #custom-bootstrap-menu.navbar .navbar-collapse {
   text-align: center;
+}
+/*slider*/
+.bx-wrapper{
+	width: 81%;
+	height: 100%;
+}
+/*jumbotron*/
+.jumbotron{
+	width: 90%;
+	margin-left: 5%;
+	background-color: transparent;
+	font-family: cursive;
+	text-align: center;
+}
+/*summary*/
+#summary1{
+	font-size: 26px;
+	padding-left: 10%;
+}
+#queryForm{
+	position: relative;
+	top: -25px;
+}
+.summary{
+	position: relative;
+	top: -40px;
+}
+#service h3{
+	text-align: center;
+	position: relative;
+	top: -175px;
 }
