@@ -93,9 +93,28 @@ body{
 #specialized {
 	margin-left: 15%;
 }
+.specialized_text{
+	text-align:center;
+}
 #other_service{
 	text-align:center;
 }
 #other_service ul->li{
 	font-size:20px;
+}
+.bottom_openhours{
+	padding-top: 20px;
+	font-size: 20px;
+}
+.bottom_email{
+	text-align:right;
+}
+.bottom_address{
+
+}
+.bottom_phone img{
+	width:10%;
+}
+.bottom_email, .bottom_address, .bottom_phone{
+	font-size:15px;
 }
