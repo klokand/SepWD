@@ -90,8 +90,8 @@
 					<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 				</form>
 	</div>
-	<div id="specialized" class="col-md-12">
-	<img class="img-responsive" src="/img/specialized.png" />
+	<div id="specialized" class="marginMerge col-md-12">
+	<img class="img-responsive" src="/img/specialized1.png" />
 	</div>
 	<div class="specialized_text col-md-2 col-md-offset-1">
 	<img class="img-responsive" src="/img/Fertility1.png" />
@@ -114,6 +114,9 @@
 	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
 	</div>
 	<div id="other_service" class="col-md-12">
+		<div class="marginMerge col-md-12">
+			<img class="img-responsive" src="/img/otherServices.png" />
+		</div>
 		<h3>We also treat other general and difficult conditions, such as:</h3>
 			<p>Skin Issues: Acne, Eczema, Urticaria(Hives), Shingles, Alopecia, Neurodermatitis,</p>
 			<p>Digestive Disorder: Diarrhea, Constipation, IBS, Gastritis, Reflux</p>
@@ -122,7 +125,9 @@
 			<p>Men’s Health: Low Libido, Impotence</p>
 			<p>Other Conditions: Urinary Disorder, Weight Loss, Quit Smoking, Cancer Support</p>
 	</div>
-	<hr>
+	<div class="marginMerge col-md-12">
+	<img class="img-responsive" src="/img/findUs.png" />
+	</div>
 	<div class="bottom_openhours col-md-offset-3 col-md-6"><img src="/img/clock1.png">Opening Hours Monday to Saturday : 9:00am to 6:00pm</div>
 	<div class="bottom_email col-md-4"><img src="/img/email.png">info@acu8health.com.au</div>
 	<div class="bottom_address col-md-4"><img src="/img/address.png">Unit 2, 434 Cambridge Street, Floreat WA, 6014</div>
@@ -130,9 +135,15 @@
 	
 	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?center=&amp;q=434 Cambridge Street, Floreat WA, 6014, -37.8097822, 144.9784406&amp;zoom=14&amp;size=300x300&amp;output=embed&amp;iwloc=near"></iframe>
 	
-
-	@yield('content')
-
+	<div class="col-md-12">
+			<img class="img-responsive line" src="/img/line.png" />
+	</div>
+            <footer class="marginMerge row">
+				<span class="col-md-8"><p>© 2015 ACU8 Health All Rights Reserved</p></span>
+                <ul class="socialLists col-md-4">
+                 <li>Join Us <a href="https://www.facebook.com/acu8health"><img src="/img/facebook.png"/></a></li>
+                </ul>
+            </footer>
 	<!-- Scripts -->
 	<script src="/output/final.js"></script>
 	</div>
