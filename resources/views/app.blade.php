@@ -133,10 +133,11 @@
 	<div class="bottom_address col-md-4"><img src="/img/address.png">Unit 2, 434 Cambridge Street, Floreat WA, 6014</div>
 	<div class="bottom_phone col-md-4"><img src="/img/call.png">(08)-9387-3389</div>
 	
-	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?center=&amp;q=434 Cambridge Street, Floreat WA, 6014, -37.8097822, 144.9784406&amp;zoom=14&amp;size=300x300&amp;output=embed&amp;iwloc=near"></iframe>
+	<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKMDOGoDU7nrjakWF3NOPTzKEtlW-yFqw
+    &q=Unit 2,434 Cambridge Street, Floreat WA, 6014"></iframe>
 	
 	<div class="col-md-12">
-			<img class="img-responsive line" src="/img/line.png" />
+		<img class="img-responsive line" src="/img/line.png" />
 	</div>
             <footer class="marginMerge row">
 				<span class="col-md-8"><p>© 2015 ACU8 Health All Rights Reserved</p></span>
