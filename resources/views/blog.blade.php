@@ -1,8 +1,8 @@
 @extends('app')
 @section('content')
-<ul id="box">
+<ul id="box" class="col-md-8 col-md-offset-1">
   <li>
-    <div class="lazy dh-container" dataimg="https://unsplash.it/375/225?image=764">
+    <div class="lazy dh-container img-repsonsive" dataimg="/img/test1.jpg">
 	<div class="dh-overlay">Image Caption Here1</div>
     </div>
   </li>
