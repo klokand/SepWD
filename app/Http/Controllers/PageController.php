@@ -10,5 +10,26 @@ class PageController extends Controller {
 	public function index(){
 		return view('index');
 	}
+	public function practitioners(){
+		return view('practitioners');
+	}
+	public function treatment(){
+		return view('treatment');
+	}
+	public function fertility(){
+		return view('fertility');
+	}
+	public function general(){
+		return view('general');
+	}
+	public function blog(){
+		return view('blog');
+	}
+	public function fees(){
+		return view('fees');
+	}
+	public function contact(){
+		return view('contact');
+	}
 
 }

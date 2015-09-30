@@ -8,4 +8,7 @@ $(document).ready(function(){
 	randomStart:true,
 	mode:'fade',
   });
+  $('.contenthover a').simpleLightboxVideo();
+  $('.dh-container').directionalHover();
+  $("body").lazyload();
 });

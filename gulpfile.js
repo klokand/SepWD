@@ -15,12 +15,17 @@ elixir(function(mix) {
     mix.styles([
 		'vendor/css/bootstrap.min.css',
 		'vendor/css/jquery.bxslider.css',
+		'vendor/css/lightbox.min.css',
+		'vendor/css/jquery.directional-hover.min.css',
 		'css/main.css'
 	],'public/output/final.css','resources/assets');
 	mix.scripts([
 		'vendor/js/jquery.min.js',
 		'vendor/js/bootstrap.min.js',
 		'vendor/js/jquery.bxslider.js',
+		'vendor/js/lazyload.js',
+		'vendor/js/jquery.directional-hover.min.js',	
+		'vendor/js/lightbox.min.js',
 		'js/main.js'
 	],'public/output/final.js','resources/assets');
 	mix.copy('resources/assets/img','public/img');

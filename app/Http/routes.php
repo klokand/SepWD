@@ -12,3 +12,10 @@
 */
 
 Route::get('/', 'PageController@index');
+Route::get('/practitioners', 'PageController@practitioners');
+Route::get('/treatment', 'PageController@treatment');
+Route::get('/fertility', 'PageController@fertility');
+Route::get('/general', 'PageController@general');
+Route::get('/blog', 'PageController@blog');
+Route::get('/fees', 'PageController@fees');
+Route::get('/contact', 'PageController@contact');
