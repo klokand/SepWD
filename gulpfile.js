@@ -16,7 +16,9 @@ elixir(function(mix) {
 		'vendor/css/bootstrap.min.css',
 		'vendor/css/jquery.bxslider.css',
 		'vendor/css/lightbox.min.css',
+		'vendor/css/font-awesome.min.css',
 		'vendor/css/jquery.directional-hover.min.css',
+		'vendor/css/jquery.social-buttons.css',
 		'css/main.css'
 	],'public/output/final.css','resources/assets');
 	mix.scripts([
@@ -26,8 +28,10 @@ elixir(function(mix) {
 		'vendor/js/lazyload.js',
 		'vendor/js/jquery.directional-hover.min.js',	
 		'vendor/js/lightbox.min.js',
+		'vendor/js/jquery.social-buttons.js',
 		'js/main.js'
 	],'public/output/final.js','resources/assets');
 	mix.copy('resources/assets/img','public/img');
 	mix.copy('resources/assets/vendor/images','public/output/images');
+	mix.copy('resources/assets/fonts','public/fonts');
 });

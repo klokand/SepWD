@@ -17,6 +17,6 @@ Route::get('/treatment', 'PageController@treatment');
 Route::get('/fertility', 'PageController@fertility');
 Route::get('/general', 'PageController@general');
 Route::get('/blog', 'PageController@blog');
-Route::get('/blog/{id}','PageController@blogDetail');
+Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'PageController@blogDetail']);
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');

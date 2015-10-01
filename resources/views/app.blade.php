@@ -7,6 +7,12 @@
 	<title>ACU8HEALTH</title>
 	<link href="/output/final.css" rel="stylesheet">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	@if(Route::currentRouteName() == 'blogDetail')
+	<meta property="og:title" content='{{$title}}'>
+	<meta property="og:url" content='{{$url}}'>
+	<meta property="og:image" content='{{$img}}'>
+	<meta property="og:description" content='{{$summary}}'>
+	@endif
 
 	<!-- Fonts -->
 
@@ -18,8 +24,17 @@
 	@yield('content')
 	</div>
 	@include('partial.footer')
+	</div>
 	<!-- Scripts -->
 	<script src="/output/final.js"></script>
-	</div>
+	@if(Route::currentRouteName() == 'blogDetail')
+	<script type="text/javascript">
+        $(function () {
+            $('[data-social]').socialButtons({
+                url: $('input[name=_url]').val()
+            });
+        });
+    </script>
+	@endif
 </body>
 </html>

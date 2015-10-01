@@ -1707,6 +1707,150 @@ d.trigger("activate.bs.scrollspy")},b.prototype.clear=function(){a(this.selector
 })(window.jQuery || window.Zepto || window.$);
 !function(a){a.fn.directionalHover=function(b){function c(a,b,c,e,f,g,h,i){var n=0;g/2>=e-i&&(n^=j),c-h>=f/2&&(n^=k),e-i>g/2&&(n^=l),f/2>c-h&&(n^=m),d(n,a,b,c-h,e-i,f/2,g/2)}function d(a,b,c,d,i,j,k){e(a,n)?f(d,i,j,k)?h(b,c,0,2*-j):h(b,c,2*-k,0):e(a,o)?g(d,i,j,k)?h(b,c,2*-k,0):h(b,c,0,2*j):e(a,p)?g(d,i,j,k)?h(b,c,0,2*-j):h(b,c,2*k,0):e(a,q)&&(f(d,i,j,k)?h(b,c,2*k,0):h(b,c,0,2*j))}function e(a,b){return(a&b)===b}function f(a,b,c,d){return 0>d*a-c*b}function g(a,b,c,d){return 0>c*(b-d)+d*a-c*d}function h(a,b,c,d){"in"===b?a.animate({top:c,left:d},0,function(){a.stop().animate({top:0,left:0},i.speed,i.easing)}):"out"===b&&a.animate({top:0,left:0},0,function(){a.stop().animate({top:c,left:d},i.speed,i.easing)})}var i=a.extend({},a.fn.directionalHover.defaults,b),j=1,k=2,l=4,m=8,n=j|m,o=j|k,p=l|m,q=l|k;return this.css({position:"relative",overflow:"hidden"}),this.find("."+i.overlay).css({position:"absolute",top:"-100%"}),this.each(function(){var b=a(this);b.hover(function(a){c(b.find("."+i.overlay),"in",a.pageX,a.pageY,b.width(),b.height(),Math.floor(b.offset().left),b.offset().top)},function(a){c(b.find("."+i.overlay),"out",a.pageX,a.pageY,b.width(),b.height(),Math.floor(b.offset().left),b.offset().top)})})},a.fn.directionalHover.defaults={overlay:"dh-overlay",easing:"swing",speed:400}}(jQuery);
 !function(a){a.extend(a.fn,{simpleLightboxVideo:function(){var b={delayAnimation:300,keyCodeClose:27};a.simpleLightboxVideo.vars=a.extend({},b);var c=this;return c.click(function(){if(window.innerHeight>540)var b=(window.innerHeight-540)/2;else var b=0;var c='<iframe src="" width="640" height="480" id="slvj-video-embed" style="border:0;"></iframe>',d='<div id="slvj-close-icon"></div>',e='<div class="slvj-lightbox" style="margin-top:'+b+'px">',f='<div id="slvj-back-lightbox">',g='<div id="slvj-background-close"></div>',h='<div id="slvj-window">',i="</div></div></div>";if(a("body").append(h+g+f+e+d+c+i),a("#slvj-window").hide(),"youtube"==a(this).data("videosite"))var j="http://www.youtube.com/embed/"+a(this).data("videoid")+"?autoplay=1";else if("vimeo"==a(this).data("videosite"))var j="http://player.vimeo.com/video/"+a(this).data("videoid")+"?autoplay=1";return a("#slvj-window").fadeIn(),a("#slvj-video-embed").attr("src",j),a("#slvj-close-icon").click(function(){a("#slvj-window").fadeOut(a.simpleLightboxVideo.vars.delayAnimation,function(){a(this).remove()})}),a("#slvj-background-close").click(function(){a("#slvj-window").fadeOut(a.simpleLightboxVideo.vars.delayAnimation,function(){a(this).remove()})}),!1}),a(document).keyup(function(b){27==b.keyCode&&a("#slvj-window").fadeOut(a.simpleLightboxVideo.vars.delayAnimation,function(){a(this).remove()})}),a(window).resize(function(){if(window.innerHeight>540)var b=(window.innerHeight-540)/2;else var b=0;a(".slvj-lightbox").css({marginTop:b+"px"})}),!1}})}(jQuery),function(a){a.simpleLightboxVideo=function(b,c){return a(c).simpleLightboxVideo()}}(jQuery);
+(function ($, window, document, undefined) {
+    var Socials,
+        SocialButtons;
+
+    Socials = {
+        fb: {
+            url: "https://graph.facebook.com/?id=",
+            callback: function (data) {
+                console.log('fb', data);
+                if (data && data.shares) {
+                    this.count = data.shares;
+                } else {
+                    this.count = 0;
+                }
+            },
+            share: "http://www.facebook.com/sharer/sharer.php?u="
+        },
+        vk: {
+            url: "https://vk.com/share.php?act=count&url=",
+            callback: function (data) {
+                // VK.com doesn't support callback parametr for JSONP
+                // This callback will never be called
+            },
+            share: "https://vk.com/share.php?url="
+        },
+        tw: {
+            url: "https://cdn.api.twitter.com/1/urls/count.json?url=",
+            callback: function (data) {
+                console.log('tw', data);
+                if (data && data.count) {
+                    this.count = data.count;
+                } else {
+                    this.count = 0;
+                }
+            },
+            share: "https://twitter.com/intent/tweet?url="
+        },
+        ln: {
+            url: "https://www.linkedin.com/countserv/count/share?format=jsonp&url=",
+            callback: function (data) {
+                console.log('ln', data);
+                if (data && data.count) {
+                    this.count = data.count;
+                } else {
+                    this.count = 0;
+                }
+            },
+            share: "https://www.linkedin.com/cws/share?url="
+        },
+        pt: {
+            url: "http://api.pinterest.com/v1/urls/count.json?url=",
+            callback: function (data) {
+                console.log('pt', data);
+                if (data && data.count) {
+                    this.count = data.count;
+                } else {
+                    this.count = 0;
+                }
+            },
+            // Have some trouble with this
+            share: "https://www.pinterest.com/pin/create/bookmarklet/?description=&url="
+        }
+    };
+
+    SocialButtons = {
+        init: function (options, el) {
+            var self = this,
+                $el = $(el),
+                network = $el.data("social"),
+                oSocial = Socials[network];
+
+
+            if (oSocial) {
+                /**
+                * VK.com doesn't support callback parameter for JSONP
+                * VK.com wanna call VK.Share.count()
+                */
+                if (network === "vk") {
+                    window.VK = window.VK || {};
+                    window.VK.Share = VK.Share || {};
+                    window.VK.Share.count = function (index, count) {
+                        Socials["vk"].count = count;
+                    }
+                }
+
+                options = options || {};
+
+                if (options.url) {
+                    self.shareUrl = options.url;
+                } else {
+                    self.shareUrl = window.location.href;
+                }
+
+                if (oSocial.url) {
+                    $.getScript(
+                        oSocial.url + self.shareUrl + "&callback=jQuery.fn.socialButtons." + network + "SetCount",
+                        function(data, textStatus, jqxhr) {
+                            $el.attr("data-count", oSocial.count);
+                        }
+                    );
+                }
+
+                if (oSocial.share) {
+                    $el.on("click.socialButtons", function () {
+                        window.open(
+                            oSocial.share + self.shareUrl, 
+                            '', 
+                            'menubar=no,toolbar=no,resizable=yes' + 
+                            ',scrollbars=yes' +
+                            ',height=300,width=600'
+                        );
+                    });
+                }
+            }
+        },
+        setCount: function (network, count) {
+            
+        },
+        getCount: function () {
+            
+        }
+    };
+
+    $.fn.socialButtons = function(options) {
+        return this.each(function () {
+            var socialButtons = Object.create(SocialButtons);
+
+            if (SocialButtons[options]) {
+                return SocialButtons[options].apply(this, Array.prototype.slice.call(arguments, 1));
+            } else if (typeof options === 'object' || typeof options === 'undefined') {
+                return socialButtons.init(options, this);
+            } else {
+                $.error('"' + options + '" method does not exist in jQuery.switcher');
+            }
+        });
+    };
+
+    for (var network in Socials) {
+        if (Socials.hasOwnProperty(network)) {
+            $.fn.socialButtons[network + "SetCount"] = Socials[network].callback.bind(Socials[network]);
+        }
+    }
+
+}(jQuery, window, document));
 $(document).ready(function(){
   $('.bxslider').bxSlider({
 	easing: 'ease-in',
