@@ -22,9 +22,6 @@ Nostrum quis quo earum enim suscipit molestiae cupiditate reprehenderit? Atque, 
 				<span class="fa fa-facebook" data-count="..." data-social="fb"></span>
 			</div>
 			<div class="social__item">
-				<span class="fa fa-vk" data-count="..." data-social="vk"></span>
-			</div>
-			<div class="social__item">
 				<span class="fa fa-twitter" data-count="..." data-social="tw"></span>
 			</div>
 			<div class="social__item">
