@@ -143,8 +143,6 @@ body{
 
 /*blog*/
 #box {
-  margin: 0 auto;
-  padding: 10px 0 0 10px;
   background:rgba(98, 28, 91, 1);
   overflow: hidden;
   zoom: 1;
@@ -163,9 +161,14 @@ body{
 }
 
 #box li div {
-  width: 600px;
+  width: 700px;
   height: 500px;
   vertical-align: middle;
+}
+#box li .dh-overlay p{
+	padding: 10px;
+	line-height: 20px;
+	text-align: center;
 }
 .blog{
 	opacity: 0.5;
@@ -177,4 +180,10 @@ body{
   text-align: center;
   line-height: 50px;
   color: #fff;
+}
+.pagination li a{
+	color:#e0d06f;
+}
+.pagination-lg>li>a{
+	background-color:rgba(98, 28, 91, 1);
 }
