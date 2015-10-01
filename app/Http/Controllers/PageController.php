@@ -25,6 +25,9 @@ class PageController extends Controller {
 	public function blog(){
 		return view('blog');
 	}
+	public function blogDetail($id){
+		return view('blogDetail')->with('id',$id);
+	}
 	public function fees(){
 		return view('fees');
 	}

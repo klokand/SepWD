@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ACU8HEALTH</title>
 	<link href="/output/final.css" rel="stylesheet">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
 	<!-- Fonts -->
 
