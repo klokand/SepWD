@@ -263,8 +263,7 @@ body{
 #custom-bootstrap-menu.navbar-default {
     font-size: 19px;
 	border-radius: 0;
-	background-image:url('/img/purple-bg_2.jpg');
-	background-repeat:repeat;
+	background-color:transparent;
 	border-color: transparent;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li{
@@ -337,7 +336,7 @@ left: 10px;
 	color: #c6ab56;
 }
 #queryForm{
-	background-color: #621c5b;
+	/*background-color: #621c5b;*/
 	margin: -5px;
 	padding-bottom: 14px;
 	border-radius: 10px;
