@@ -162,12 +162,18 @@ footer{
 }
 
 /*doctors*/
-.doctor{
-	background-color:rgba(98, 28, 91, 1);
+#doctors{
+	/*background-color:#621c5b;*/
+	color:black;
 }
 .doctor img{
-	position: relative;
-	top: 20px;
+	margin: 12px;
+}
+#doctors .doctor .title{
+	top:35px;
+}
+#doctors .doctor .description{
+	padding-top: 22px;
 }
 /*treatments*/
 .contenthover{
