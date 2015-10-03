@@ -1,6 +1,7 @@
 @extends('app')
 @section('content')
 <div id="doctors" class="col-md-10 col-md-offset-1">
+<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-10 col-md-offset-1 doctor">
 	<div class="col-md-3 col-md-offset-1"><img class="img-responsive" src="/img/zhiqiu.jpg"></div>
 	<div class="title col-md-7">
@@ -24,6 +25,7 @@ several relevant papers. When Ivan is practicing in Perth, he integrates his vas
 	</ul>
 	</div>
 </div>
+<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-10 col-md-offset-1 doctor">
 	<div class="col-md-3 col-md-offset-1"><img class="img-responsive" src="/img/yanshi.jpg"></div>
 	<div class="title col-md-7">

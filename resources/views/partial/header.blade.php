@@ -2,7 +2,7 @@
 		<div class="logo col-md-6 ">
 			<img class="img-responsive" src="/img/logo2.png" alt="ACU8HEALTH">
 		</div>
-		<div class="contact col-md-offset-2 col-md-4">
+		<div class="contact-top col-md-offset-2 col-md-4">
 		<p><img class="phone" src="/img/call.png" alt="call"><span style="font-size: 30px;"> (08)-9387-3389</span></p>
 
 		</div>

@@ -6,12 +6,12 @@ body{
 }
 #content{
 	min-height: 600px;
-	background-color:white;
+	background-color:#621c5b;
 }
 
 /*topbar*/
-#topbar .contact img.phone{
-	width:10%;
+#topbar .contact-top img.phone{
+	width:45px;
 }
 
 /*nav bar*/
@@ -67,6 +67,10 @@ body{
 #custom-bootstrap-menu ul.navbar-nav li{
 	padding-right:26px !important;
 }
+.contact-top{
+	position: relative;
+	top: 55px;
+}
 /*slider*/
 .bx-wrapper ul.bxslider li img{
 position: relative;
@@ -91,7 +95,7 @@ left: 10px;
 #summary1 p{
 	position: relative;
 	top: -16px;
-	color: black;
+	color: #c6ab56;
 }
 #queryForm{
 	background-color: #621c5b;
@@ -114,7 +118,7 @@ left: 10px;
 
 #other_service{
 	text-align:center;
-	color:black;
+	color:#c6ab56;
 }
 #other_service ul->li{
 	font-size:20px;
@@ -164,7 +168,7 @@ footer{
 /*doctors*/
 #doctors{
 	/*background-color:#621c5b;*/
-	color:black;
+	color:#c6ab56;
 }
 .doctor img{
 	margin: 12px;
