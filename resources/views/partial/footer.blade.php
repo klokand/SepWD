@@ -1,7 +1,7 @@
 	<div class="col-md-12">
 		<img class="img-responsive line" src="/img/line.png" />
 	</div>
-            <footer class="marginMerge row">
+            <footer class="row">
 				<div class="top-to-page">
 					<a href="#topbar" class="scroll"> </a>
 					<div class="clear"> </div>

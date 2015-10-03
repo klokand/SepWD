@@ -6,6 +6,7 @@ body{
 }
 #content{
 	min-height: 600px;
+	background-color:white;
 }
 
 /*topbar*/
@@ -15,16 +16,17 @@ body{
 
 /*nav bar*/
 #custom-bootstrap-menu{
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(119, 119, 119, 1);
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 19px;
-    background-color: rgba(98, 28, 91, 1);
-    border-width: 1px;
-    border-radius: 4px;
-	border-color: #e0d06f;
+	border-radius: 0;
+	background-image:url('/img/purple-bg_2.jpg');
+	background-repeat:repeat;
+	border-color: transparent;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li{
 	padding: 0px 5px;
@@ -62,44 +64,57 @@ body{
 #custom-bootstrap-menu.navbar .navbar-collapse {
   text-align: center;
 }
-/*slider*/
-.bx-wrapper{
-	width: 81%;
-	height: 100%;
+#custom-bootstrap-menu ul.navbar-nav li{
+	padding-right:26px !important;
 }
-/*jumbotron*/
-.jumbotron{
-	width: 90%;
-	margin-left: 5%;
-	background-color: transparent;
-	font-family: cursive;
+/*slider*/
+.bx-wrapper ul.bxslider li img{
+position: relative;
+left: 10px;
+}
+/*slogan*/
+.slogan{
+	background-color:#621c5b;
+}
+.slogan p{
+	font-family: font-family: 'Roboto Slab', serif;
 	text-align: center;
+	font-size: 43px;
+	padding:10px;	
 }
 /*summary*/
+
 #summary1{
-	font-size: 26px;
-	padding-left: 10%;
+	font-size: 22px;
+	padding: 2%;
+}
+#summary1 p{
+	position: relative;
+	top: -16px;
+	color: black;
 }
 #queryForm{
-	position: relative;
-	top: -25px;
+	background-color: #621c5b;
+	margin: -5px;
+	padding-bottom: 14px;
+	border-radius: 10px;
 }
-.summary{
+#service{
 	position: relative;
-	top: -40px;
+	top: -15px;
+	border-radius: 10px;
+	background-color: #621c5b;
 }
-#service {
+#service h3{
 	text-align: center;
-	top: -26px;
 }
-.marginMerge {
-	margin-left: 15%;
+#specialized{
+	background-color:#621c5b;
 }
-.specialized_text{
-	text-align:center;
-}
+
 #other_service{
 	text-align:center;
+	color:black;
 }
 #other_service ul->li{
 	font-size:20px;
@@ -108,17 +123,26 @@ body{
 	padding-top: 20px;
 	font-size: 20px;
 }
+.bottom_openhours img{
+	width:45px;
+}
 .bottom_email{
 	text-align:right;
 }
-.bottom_address{
-
+.bottom_email img{
+	width:45px;
+}
+.bottom_address img{
+	width:45px;
 }
 .bottom_phone img{
-	width:10%;
+	width:45px;
 }
 .bottom_email, .bottom_address, .bottom_phone{
 	font-size:15px;
+}
+#contact{
+	background-color:#621c5b;
 }
 .line{
 	width:100%;
@@ -126,6 +150,15 @@ body{
 }
 .socialLists{
 	list-style-type: none;
+}
+/*map*/
+iframe.map{
+padding:0 17px;
+}
+/*Footer*/
+footer{
+	background-image:url('/img/purple-bg_2.jpg');
+	background-repeat:repeat;
 }
 
 /*doctors*/

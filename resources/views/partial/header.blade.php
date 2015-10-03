@@ -1,10 +1,10 @@
 <div id = "topbar" class="row">
-		<div class="logo col-md-6 col-md-offset-1">
-			<img src="/img/acu8-health-logo.png" alt="ACU8HEALTH">
+		<div class="logo col-md-6 ">
+			<img class="img-responsive" src="/img/logo2.png" alt="ACU8HEALTH">
 		</div>
-		<div class="contact col-md-5">
+		<div class="contact col-md-offset-2 col-md-4">
 		<p><img class="phone" src="/img/call.png" alt="call"><span style="font-size: 30px;"> (08)-9387-3389</span></p>
-		<img class="address" src="/img/address.png" alt="address">&nbsp; Unit 2, 434 Cambridge Street, Floreat WA, 6014
+
 		</div>
 	</div>
 	<nav id="custom-bootstrap-menu" class="navbar navbar-default">
@@ -64,8 +64,6 @@
 					<li><a href="/contact">Contact</a></li>
 					@endif
 				</ul>
-
-
 			</div>
 		</div>
 	</nav>

@@ -1,1 +1,1 @@
-<iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKMDOGoDU7nrjakWF3NOPTzKEtlW-yFqw&q=Unit 2,434 Cambridge Street, Floreat WA, 6014"></iframe>
+<iframe class="map" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBKMDOGoDU7nrjakWF3NOPTzKEtlW-yFqw&q=Unit 2,434 Cambridge Street, Floreat WA, 6014"></iframe>

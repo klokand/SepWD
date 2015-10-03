@@ -2,26 +2,24 @@
 
 @section('content')
 <ul class="bxslider">
-		<li><img src="/img/advice.png" /></li>
-		<li><img src="/img/conception.png" /></li>
-		<li><img src="/img/herbs2.png" /></li>
-		<li><img src="/img/pulse.png" /></li><li>
-		<img src="/img/welcome.png" /></li>
-		<li><img src="/img/herbs2.png" /></li>
-		<li><img src="/img/womenshealth.png" /></li>
+		<li><img src="/img/slider1.jpg" /></li>
+		<li><img src="/img/slider2.jpg" /></li>
+		<li><img src="/img/slider3.jpg" /></li>
+		<li><img src="/img/slider4.jpg" /></li>
+		<li><img src="/img/slider5.jpg" /></li>
 	</ul>
-	<div class="jumbotron">
+	<div class="slogan">
 	<p>We are providing natural health solutions to help your fertility and general health.</p>
 	</div>
-	<div class="summary row">
+	<div class="summary">
 	<div id="summary1" class="col-md-8">
-	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders:</p>
+	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders.</p>
 	<div id="service" class="col-md-12">
-		<h3 class="col-md-12">Service</h3>
-		<img src="/img/05.png" />
-		<img src="/img/06.png" />
-		<img src="/img/05.png" />
-		<img src="/img/06.png" />
+		<img class="img-responsive" src="/img/services.png" />
+		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
+		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/06.png" />
+		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
+		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/06.png" />
 		</div>
 	</div>
 	<div id="queryForm" class="col-xs-12 col-sm-12 col-md-4">
@@ -42,9 +40,8 @@
 					<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 				</form>
 	</div>
-	<div id="specialized" class="marginMerge col-md-12">
-	<img class="img-responsive" src="/img/specialized1.png" />
-	</div>
+	<div id="specialized" class="col-md-12">
+	<img class="img-responsive col-md-12" src="/img/specialized1.png" />
 	<div class="specialized_text col-md-2 col-md-offset-1">
 	<img class="img-responsive" src="/img/Fertility1.png" />
 	<p>Natural Fertility Support IVF Support</p>
@@ -65,10 +62,9 @@
 	<img class="img-responsive" src="/img/04.png" />
 	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
 	</div>
+	
+	</div>
 	<div id="other_service" class="col-md-12">
-		<div class="marginMerge col-md-12">
-			<img class="img-responsive" src="/img/otherServices.png" />
-		</div>
 		<h3>We also treat other general and difficult conditions, such as:</h3>
 			<p>Skin Issues: Acne, Eczema, Urticaria(Hives), Shingles, Alopecia, Neurodermatitis,</p>
 			<p>Digestive Disorder: Diarrhea, Constipation, IBS, Gastritis, Reflux</p>
@@ -77,12 +73,13 @@
 			<p>Men’s Health: Low Libido, Impotence</p>
 			<p>Other Conditions: Urinary Disorder, Weight Loss, Quit Smoking, Cancer Support</p>
 	</div>
-	<div class="marginMerge col-md-12">
-	<img class="img-responsive" src="/img/findUs.png" />
+	<div id="contact" class="col-md-12">
+	<img class="img-responsive col-md-12" src="/img/findUs.png" />
+		<div class="bottom_openhours col-md-offset-3 col-md-9"><img src="/img/clock1.png">Opening Hours Monday to Saturday : 9:00am to 6:00pm</div>
+		<div class="bottom_email col-md-3"><img src="/img/email.png">info@acu8health.com.au</div>
+		<div class="bottom_address col-md-5 col-md-offset-1"><img src="/img/address.png">Unit 2, 434 Cambridge Street, Floreat WA, 6014</div>
+		<div class="bottom_phone col-md-3"><img src="/img/call.png">(08)-9387-3389</div>
 	</div>
-	<div class="bottom_openhours col-md-offset-3 col-md-6"><img src="/img/clock1.png">Opening Hours Monday to Saturday : 9:00am to 6:00pm</div>
-	<div class="bottom_email col-md-4"><img src="/img/email.png">info@acu8health.com.au</div>
-	<div class="bottom_address col-md-4"><img src="/img/address.png">Unit 2, 434 Cambridge Street, Floreat WA, 6014</div>
-	<div class="bottom_phone col-md-4"><img src="/img/call.png">(08)-9387-3389</div>
+	
 	@include('partial.map')
 @endsection

@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ACU8HEALTH</title>
+	<title>Acu8 Health-Fertility and Healing Centre</title>
 	<link href="/output/final.css" rel="stylesheet">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 	@if(Route::currentRouteName() == 'blogDetail')
 	<meta property="og:title" content='{{$title}}'>
 	<meta property="og:url" content='{{$url}}'>
@@ -20,7 +21,7 @@
 <body>
 	<div class="container">
 	@include('partial.header')
-	<div id="content">
+	<div id="content" class="row">
 	@yield('content')
 	</div>
 	@include('partial.footer')
