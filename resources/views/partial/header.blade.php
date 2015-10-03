@@ -22,47 +22,49 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="/">Home</a></li>
+					<li 
 					@if(Request::path() == 'practitioners')
-					<li class="active"><a href="/practitioners">Practitioners</a></li>
-					@else
-					<li><a href="/practitioners">Practitioners</a></li>
+					class="active"
 					@endif
-					
+					><a href="/practitioners">Practitioners</a></li>
+					<li 
 					@if(Request::path() == 'treatment')
-					<li class="active"><a href="/treatment">Treatment</a></li>
-					@else
-					<li><a href="/treatment">Treatment</a></li>
+					class="active"
 					@endif
+					><a href="/treatment">Treatment</a></li>
 					
+					
+					<li 
 					@if(Request::path() == 'fertility')
-					<li class="active"><a href="/fertility">Fertility</a></li>
-					@else
-					<li><a href="/fertility">Fertility</a></li>
+					class="active"
 					@endif
+					><a href="/fertility">Fertility</a></li>
 					
+					
+					<li 
 					@if(Request::path() == 'general')
-					<li class="active"><a href="/general">General Health</a></li>
-					@else
-					<li><a href="/general">General Health</a></li>
+					class="active"
 					@endif
+					><a href="/general">General Health</a></li>
 					
+					<li 
 					@if(Request::path() == 'blog')
-					<li class="active"><a href="/blog">Blog</a></li>
-					@else
-					<li><a href="/blog">Blog</a></li>
+					class="active"
 					@endif
-					
+					><a href="/blog">Blog</a></li>
+
+					<li 
 					@if(Request::path() == 'fees')
-					<li class="active"><a href="/fees">Fees</a></li>
-					@else
-					<li><a href="/fees">Fees</a></li>
+					class="active"
 					@endif
+					><a href="/fees">Fees</a></li>
 					
+					<li 
 					@if(Request::path() == 'contact')
-					<li class="active"><a href="/contact">Contact</a></li>
-					@else
-					<li><a href="/contact">Contact</a></li>
+					class="active"
 					@endif
+					><a href="/contact">Contact</a></li>
+					
 				</ul>
 			</div>
 		</div>

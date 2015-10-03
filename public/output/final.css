@@ -245,7 +245,7 @@ body{
 }
 #content{
 	min-height: 600px;
-	background-color:#621c5b;
+	/*background-color:#621c5b;*/
 }
 
 /*topbar*/
@@ -317,7 +317,7 @@ left: 10px;
 }
 /*slogan*/
 .slogan{
-	background-color:#621c5b;
+	/*background-color:#621c5b;*/
 }
 .slogan p{
 	font-family: font-family: 'Roboto Slab', serif;
@@ -346,13 +346,13 @@ left: 10px;
 	position: relative;
 	top: -15px;
 	border-radius: 10px;
-	background-color: #621c5b;
+	/*background-color: #621c5b;*/
 }
 #service h3{
 	text-align: center;
 }
 #specialized{
-	background-color:#621c5b;
+	/*background-color:#621c5b;*/
 }
 
 #other_service{
@@ -385,7 +385,7 @@ left: 10px;
 	font-size:15px;
 }
 #contact{
-	background-color:#621c5b;
+	/*background-color:#621c5b;*/
 }
 .line{
 	width:100%;
