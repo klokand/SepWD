@@ -4,7 +4,6 @@
 		</div>
 		<div class="contact-top col-md-offset-2 col-md-4">
 		<p><img class="phone" src="/img/call.png" alt="call"><span style="font-size: 30px;"> (08)-9387-3389</span></p>
-
 		</div>
 	</div>
 	<nav id="custom-bootstrap-menu" class="navbar navbar-default">
@@ -27,25 +26,49 @@
 					class="active"
 					@endif
 					><a href="/practitioners">Practitioners</a></li>
-					<li 
+					
+					<li class="dropdown
 					@if(Request::path() == 'treatment')
-					class="active"
+						active
 					@endif
-					><a href="/treatment">Treatment</a></li>
+					">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle">Treatment <b class="caret"></b></a>
+					<ul class="dropdown-menu" id="menu1">
+						<li><a href="/treatment/acupuncture">Acupuncture</a></li>
+						<li><a href="/treatment/chinese herbal medicine">Chinese Herbal Medicine</a></li>
+						<li><a href="/treatment/therapeutic massage">Therapeutic Massage</a></li>
+					</ul>
+					</li>
 					
-					
-					<li 
+					<li class="dropdown
 					@if(Request::path() == 'fertility')
-					class="active"
+						active
 					@endif
-					><a href="/fertility">Fertility</a></li>
+					">
+						<a href="/fertility" data-toggle="dropdown" class="dropdown-toggle">Fertility <b class="caret"></b></a>
+					<ul class="dropdown-menu" id="menu1">
+						<li><a href="#">IVF support</a></li>
+						<li><a href="#">Natural Fertility Support</a></li>
+						<li><a href="#">Miscarriage Prevention</a></li>
+						<li><a href="#">Pregnancy Care</a></li>
+					</ul>
+					</li>
 					
-					
-					<li 
-					@if(Request::path() == 'general')
-					class="active"
+					<li class="dropdown
+					@if(Request::path() == '	')
+						active
 					@endif
-					><a href="/general">General Health</a></li>
+					">
+						<a href="/fertility" data-toggle="dropdown" class="dropdown-toggle">General Health<b class="caret"></b></a>
+					<ul class="dropdown-menu" id="menu1">
+						<li><a href="#">Women's Health</a></li>
+						<li><a href="#">Pain Management</a></li>
+						<li><a href="#">Skin Issues</a></li>
+						<li><a href="#">Mental Disorders</a></li>
+						<li><a href="#">Digestive Disorders</a></li>
+						<li><a href="#">Respiratory Disorders</a></li>
+					</ul>
+					</li>
 					
 					<li 
 					@if(Request::path() == 'blog')
