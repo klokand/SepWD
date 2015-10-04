@@ -47,10 +47,10 @@
 					">
 						<a href="/fertility" data-toggle="dropdown" class="dropdown-toggle">Fertility <b class="caret"></b></a>
 					<ul class="dropdown-menu" id="menu1">
-						<li><a href="#">IVF support</a></li>
-						<li><a href="#">Natural Fertility Support</a></li>
-						<li><a href="#">Miscarriage Prevention</a></li>
-						<li><a href="#">Pregnancy Care</a></li>
+						<li><a href="/fertility/IVF support">IVF support</a></li>
+						<li><a href="/fertility/Natural Fertility Support">Natural Fertility Support</a></li>
+						<li><a href="/fertility/Miscarriage Prevention">Miscarriage Prevention</a></li>
+						<li><a href="/fertility/Pregnancy Care">Pregnancy Care</a></li>
 					</ul>
 					</li>
 					
@@ -59,14 +59,14 @@
 						active
 					@endif
 					">
-						<a href="/fertility" data-toggle="dropdown" class="dropdown-toggle">General Health<b class="caret"></b></a>
+						<a href="/generalHealth" data-toggle="dropdown" class="dropdown-toggle">General Health<b class="caret"></b></a>
 					<ul class="dropdown-menu" id="menu1">
-						<li><a href="#">Women's Health</a></li>
-						<li><a href="#">Pain Management</a></li>
-						<li><a href="#">Skin Issues</a></li>
-						<li><a href="#">Mental Disorders</a></li>
-						<li><a href="#">Digestive Disorders</a></li>
-						<li><a href="#">Respiratory Disorders</a></li>
+						<li><a href="/generalHealth/Womens Health">Women's Health</a></li>
+						<li><a href="/generalHealth/Pain Management">Pain Management</a></li>
+						<li><a href="/generalHealth/Skin Issues">Skin Issues</a></li>
+						<li><a href="/generalHealth/Mental Disorders">Mental Disorders</a></li>
+						<li><a href="/generalHealth/Digestive Disorders">Digestive Disorders</a></li>
+						<li><a href="/generalHealth/Respiratory Disorders">Respiratory Disorders</a></li>
 					</ul>
 					</li>
 					

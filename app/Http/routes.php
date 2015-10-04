@@ -14,7 +14,69 @@
 Route::get('/', 'PageController@index');
 Route::get('/practitioners', 'PageController@practitioners');
 Route::get('/treatment', 'PageController@treatment');
+Route::group(['prefix' => 'treatment'], function()
+{
+    Route::get('acupuncture', function()
+    {
+        return view('acupuncture');
+    });
+	Route::get('chinese herbal medicine', function()
+    {
+        return view('chineseHerbalMedicine');
+    });
+	Route::get('therapeutic massage', function()
+    {
+        return view('therapeuticMassage');
+    });
+});
 Route::get('/fertility', 'PageController@fertility');
+Route::group(['prefix' => 'fertility'], function()
+{
+    Route::get('IVF support', function()
+    {
+        return view('ivfSupport');
+    });
+	Route::get('Natural Fertility Support', function()
+    {
+        return view('naturalFertilitySupport');
+    });
+	Route::get('Miscarriage Prevention', function()
+    {
+        return view('miscarriagePrevention');
+    });
+	Route::get('Pregnancy Care', function()
+    {
+        return view('pregnancyCare');
+    });
+});
+Route::group(['prefix' => 'generalHealth'], function()
+{
+    Route::get('Womens Health', function()
+    {
+        return view('womensHealth');
+    });
+	Route::get('Pain Management', function()
+    {
+        return view('painManagement');
+    });
+	Route::get('Skin Issues', function()
+    {
+        return view('skinIssues');
+    });
+	Route::get('Mental Disorders', function()
+    {
+        return view('mentalDisorders');
+    });
+	Route::get('Digestive Disorders', function()
+    {
+        return view('digestiveDisorders');
+    });
+	Route::get('Respiratory Disorders', function()
+    {
+        return view('respiratoryDisorders');
+    });
+});
+
 Route::get('/general', 'PageController@general');
 Route::get('/blog', 'PageController@blog');
 Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'PageController@blogDetail']);
