@@ -66,8 +66,12 @@ body{
 #custom-bootstrap-menu ul.navbar-nav li{
 	padding-right:26px !important;
 }
+@media screen and (max-width: 767px){
 
-.dropdown-menu .sub-menu {
+
+}
+@media screen and (min-width: 768px){
+	.dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
     top: 0;
@@ -108,6 +112,8 @@ body{
 background-color:#621c5b;
 width: 114%;
 color: #c6ab56;
+}
+
 }
 
 .contact-top{
