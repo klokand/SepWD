@@ -70,7 +70,17 @@ body{
 	padding-right:26px !important;
 }
 @media screen and (max-width: 767px){
+#custom-bootstrap-menu .dropdown-menu>li>a {
+color: black !important;
+font-size: 19px !important;
+text-align: center !important;
+background-color: white !important;
+width:110% !important;
+}
+#custom-bootstrap-menu .dropdown-menu>li>a:hover {
+color: gray !important;
 
+}
 
 }
 @media screen and (min-width: 768px){
