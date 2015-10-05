@@ -33,4 +33,5 @@ Nostrum quis quo earum enim suscipit molestiae cupiditate reprehenderit? Atque, 
 		</div>
 	</div>
 </div>
+</div>
 @endsection

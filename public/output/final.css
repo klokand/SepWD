@@ -454,7 +454,7 @@ padding:0 17px;
 footer{
 	/*background-image:url('/img/purple-bg_2.jpg');
 	background-repeat:repeat;*/
-	min-height:240px
+	min-height:182px
 }
 
 /*doctors*/
@@ -539,7 +539,8 @@ footer{
 }
 /*blog detail*/
 #blog-detail{
-	background-color:#621c5b;
+	background-color:white;
+	padding-bottom: 15px;
 }
 #blog-detail .blog-content p{
 	text-indent: 20px;
