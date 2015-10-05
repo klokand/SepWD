@@ -1,12 +1,14 @@
 body{
-	background-color:#ffffff;
 	background-image:url('/img/purple-bg_2.jpg');
 	background-repeat:repeat;
 	color:#e0d06f;
 }
 #content{
 	min-height: 600px;
+	background-color:white;
 	/*background-color:#621c5b;*/
+	color:gray;
+	font-size:22px;
 }
 
 /*topbar*/
@@ -36,14 +38,15 @@ body{
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(198, 171, 86, 1);
-    background-color: rgba(248, 248, 248, 1);
+   color: #d3d3d3 ;
+ /*  color: rgba(198, 171, 86, 1);
+    background-color: rgba(248, 248, 248, 1);*/
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(198, 171, 86, 1);
-    background-color: rgba(248, 248, 248, 1);
+    color: #d3d3d3 ;
+   /* background-color: rgba(248, 248, 248, 1);*/
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
@@ -109,9 +112,9 @@ body{
     left: -6px;
 }
 .dropdown-menu>li>a:hover{
-background-color:#621c5b;
+background-color:transparent;
 width: 114%;
-color: #c6ab56;
+color: #d3d3d3 ;
 }
 
 }
@@ -144,10 +147,10 @@ left: 10px;
 #summary1 p{
 	position: relative;
 	top: -16px;
-	color: #c6ab56;
+	color: gray;
 }
 #queryForm{
-	/*background-color: #621c5b;*/
+	background-color: #621c5b;
 	margin: -5px;
 	padding-bottom: 14px;
 	border-radius: 10px;
@@ -167,7 +170,7 @@ left: 10px;
 
 #other_service{
 	text-align:center;
-	color:#c6ab56;
+	color:#gray;
 }
 #other_service ul->li{
 	font-size:20px;
@@ -212,12 +215,13 @@ padding:0 17px;
 footer{
 	/*background-image:url('/img/purple-bg_2.jpg');
 	background-repeat:repeat;*/
+	min-height:240px
 }
 
 /*doctors*/
 #doctors{
 	/*background-color:#621c5b;*/
-	color:#c6ab56;
+	color:gray;
 }
 .doctor img{
 	margin: 12px;

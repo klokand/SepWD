@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
 <div class="passage col-md-10 col-md-offset-1">
-<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-8">
 <h1>IVF Support</h1>
 <img class="img-responsive" src="/img/babyIVF1200.jpg">
@@ -16,7 +15,7 @@
 <p>Promote successful implantation; </p>
 <p>Support a sustained pregnancy; </p>
 <p>Improve the quality of sperm</p>
-<img class="img-responsive" src="/img/IVF.jpg">
+<img class="img-responsive" src="/img/IVF1.jpg">
 <h3>Prior to Starting Your IVF Cycle</h3>
 <p>Acupuncture & Chinese herbs prior to starting your IVF cycle helps balance your body including regulating your cycle, assisting with ovulation and Improve semen quality and quantity. To create a flourishing garden, first we imbue the earth with nutrients & moisten   
 mulch and then we till the soil. We do these things before we plant the seeds.</p>
@@ -25,7 +24,6 @@ reproductive and overall health are the foundations of a successful IVF program,
 <h3>During the Stimulation Phase</h3>
 <p>Acupuncture and Chinese herbal medicine can help the ovaries respond better to the stimulation drugs by producing more follicles and good quality eggs. It can also thicken the lining of the uterus to prepare for the transfer of embryos and reduce the side-effects of the drugs.</p>
 <p>We recommend once or twice weekly acupuncture treatments during this phase.</p>
-<img class="img-responsive" src="/img/IVF1.jpg">
 <h3>After egg collection</h3>
 <p>After egg collection, IVF acupuncture can reduce any local tissue trauma or bleeding and help prepare a better environment for the arrival of an embryo.</p>
 <p>We recommend one treatment 1~2 days after the egg collection.</p>

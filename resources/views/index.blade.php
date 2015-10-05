@@ -7,17 +7,16 @@
 		<li><img src="/img/slider3.jpg" /></li>
 		<li><img src="/img/slider4.jpg" /></li>
 		<li><img src="/img/slider5.jpg" /></li>
-	</ul>
+</ul>
 	<div class="slogan">
 	<p>We are providing natural health solutions to help your fertility and general health.</p>
 	</div>
-	<div class="summary">
 	<div id="summary1" class="col-md-8">
 	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders.</p>
-	<div id="service" class="col-md-12">
+		<div id="service" class="col-md-12">
 		<img class="img-responsive" src="/img/services.png" />
 		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
-		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/06.png" />
+		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/07.png" />
 		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
 		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/06.png" />
 		</div>
@@ -47,7 +46,6 @@
 	<img class="img-responsive" src="/img/04.png" />
 	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
 	</div>
-	
 	</div>
 	<div id="other_service" class="col-md-12">
 		<h3>We also treat other general and difficult conditions, such as:</h3>
@@ -60,8 +58,8 @@
 	</div>
 	<div id="contact" class="col-md-12">
 	<img class="img-responsive col-md-12" src="/img/findUs.png" />
-		<div class="bottom_openhours col-md-offset-3 col-md-9"><img src="/img/clock1.png">Opening Hours Monday to Saturday : 9:00am to 6:00pm</div>
-		<div class="bottom_email col-md-3"><img src="/img/email.png">info@acu8health.com.au</div>
+		<div class="bottom_openhours col-md-offset-3 col-md-9"><img src="/img/clock1.png">Opening Hours: Monday to Saturday 9:00am - 6:00pm</div>
+		<div class="bottom_email col-md-3"><img src="/img/email.png">info@acu8.com.au</div>
 		<div class="bottom_address col-md-5 col-md-offset-1"><img src="/img/address.png">Unit 2, 434 Cambridge Street, Floreat WA, 6014</div>
 		<div class="bottom_phone col-md-3"><img src="/img/call.png">(08)-9387-3389</div>
 	</div>

@@ -5,7 +5,7 @@
 		<div class="contact-top col-md-offset-2 col-md-4">
 		<p><img class="phone" src="/img/call.png" alt="call"><span style="font-size: 30px;"> (08)-9387-3389</span></p>
 		</div>
-	</div>
+</div>
 	<nav id="custom-bootstrap-menu" class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header row">
@@ -92,3 +92,4 @@
 			</div>
 		</div>
 	</nav>
+	<img class="img-responsive line" src="/img/line.png">

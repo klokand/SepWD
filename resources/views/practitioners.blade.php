@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
 <div id="doctors" class="col-md-10 col-md-offset-1">
-<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-10 col-md-offset-1 doctor">
 	<div class="col-md-3 col-md-offset-1"><img class="img-responsive" src="/img/zhiqiu.jpg"></div>
 	<div class="title col-md-7">

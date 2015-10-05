@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
 <div class="passage col-md-10 col-md-offset-1">
-<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-8">
 <h1>Pregnancy Care</h1>
 <img class="img-responsive" src="/img/pregnant-woman.jpg">

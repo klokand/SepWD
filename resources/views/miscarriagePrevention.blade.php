@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
 <div class="passage col-md-10 col-md-offset-1">
-<img class="img-responsive line" src="/img/line.png">
 <div class="col-md-8">
 <h1>Miscarriage Prevention</h1>
 <p>Miscarriages are a problem that many women experience whilst trying to conceive. It is suggested that 10-25% of all women will have one miscarriage. Of these women 1-3 % will suffer from repeated spontaneous miscarriages which mean 3 consecutive miscarriages. Some figures suggest that IVF clients who are over 40 have a 50% chance of miscarriage. And most of miscarriages occur during the first trimester of pregnancy.</p><p>

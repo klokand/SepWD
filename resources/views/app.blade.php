@@ -21,9 +21,13 @@
 <body>
 	<div class="container">
 	@include('partial.header')
-	<div id="content" class="row">
-	@yield('content')
 	</div>
+	<div id="content" class="row">
+		<div class="container">
+	@yield('content')
+		</div>
+	</div>
+	<div class="container">
 	@include('partial.footer')
 	</div>
 	<!-- Scripts -->
