@@ -1,4 +1,5 @@
-<h2>Contact Us Form</h2>
+<div class="queryForm col-xs-12 col-sm-12 col-md-4">
+<h2>Contact Us Today</h2>
 				<form>
 					<div class="form-group">
 						<input type="text" class="form-control" id="contactName" placeholder="FullName">
@@ -14,3 +15,4 @@
 					</div>
 					<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
 				</form>	
+</div>

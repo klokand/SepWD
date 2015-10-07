@@ -34,8 +34,7 @@ Acupuncture engages the Qi by inserting the sterilized needles into these specif
 <h3>Do you re-use the needles?</h3>
 <p>Never.</p><p>Our acupuncturists are fully qualified conscientious practitioners. We follow strictly infectious control procedure in the clinic.</p><p><strong>For your safety only sterile, single-use disposable needles are used in our clinic.</strong></p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
 		@include('partial.queryForm')		
-</div>
+
 </div>
 @endsection

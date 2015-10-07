@@ -14,8 +14,6 @@
 <h3>What are the advantages of Chinese Herbal Medicine?</h3>
 <p>It is made by concentrated natural herbal extracts which is known as effective and less side effects.</p><p>It is useful to treat various of disorders, and also very good at assist in maintenance or improvement of general well-being.</p><p>The choice, combination and strength of the Chinese herbal medicine are individually based on personal condition and need. As your condition changes and improves with treatment, the Chinese herbal treatment is also adjusted and modified until the desired health outcome is achieved.</p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
 		@include('partial.queryForm')		
-</div>
 </div>
 @endsection

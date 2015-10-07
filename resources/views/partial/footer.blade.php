@@ -1,5 +1,4 @@
 <div class="container">
-<img class="img-responsive line" src="/img/line.png" />
 	<footer class="row">
 			<div class="top-to-page">
 					<a href="#topbar" class="scroll"> </a>

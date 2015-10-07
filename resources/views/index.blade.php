@@ -15,18 +15,30 @@
 	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders.</p>
 		<div id="service" class="col-md-12">
 		<img class="img-responsive" src="/img/services.png" />
-		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
-		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/07.png" />
-		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/05.png" />
-		<img class="col-md-3 col-sm-6 col-xm-6" src="/img/06.png" />
+		<div class="service1 col-md-3 col-sm-6 col-xm-6">
+		<img src="/img/05.png" />
+		<p>Acupuncture</p>
+		</div>
+		<div class="service2 col-md-3 col-sm-6 col-xm-6">
+		<img src="/img/07.png" />
+		<p>Chinese medicine</p>
+		</div>
+		<div class="service3 col-md-3 col-sm-6 col-xm-6">
+		<img src="/img/08.png" />
+		<p>Remedial Massage</p>
+		</div>
+		<div class="service4 col-md-3 col-sm-6 col-xm-6">
+		<img src="/img/06.png" />
+		<p>Cupping</p>
+		</div>
 		</div>
 	</div>
-	<div id="queryForm" class="col-xs-12 col-sm-12 col-md-4">
+	<div id="queryForm">
 		@include('partial.queryForm')		
 	</div>
 	<div id="specialized" class="col-md-12">
-	<img class="img-responsive col-md-12" src="/img/specialized1.png" />
-	<div class="specialized_text col-md-2 col-md-offset-1">
+	<img class="img-responsive col-md-12" src="/img/specialized.png" />
+	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/Fertility1.png" />
 	<p>Natural Fertility Support IVF Support</p>
 	</div>
@@ -35,7 +47,7 @@
 	<p>Miscarriage Prevention, Morning Sick Pregnancy Care,Labor Induction</p>
 	</div>
 	<div class="specialized_text col-md-2">
-	<img class="img-responsive" src="/img/02.png" />
+	<img class="img-responsive" src="/img/09.png" />
 	<p>Menopause, Endometriosis PCOS，PMS, Irregular Periods</p>
 	</div>
 	<div class="specialized_text col-md-2">
@@ -45,6 +57,10 @@
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/04.png" />
 	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
+	</div>
+	<div class="specialized_text col-md-2">
+	<img class="img-responsive" src="/img/10.png" />
+	<p>Acne Eczema Urticaria(Hives) Herpes Zoster(Shingles) Alopecia Psoriasis Neurodermatitis</p>
 	</div>
 	</div>
 	<div id="other_service" class="col-md-12">

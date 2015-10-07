@@ -42,5 +42,6 @@ check with your health insurance.</li></ul>
 
 notice, otherwise a cancellation fee $30 will be charged.</p>
 </div>
+@include('partial.queryForm')
 </div>
 @endsection

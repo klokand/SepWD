@@ -12,8 +12,6 @@ conception by regulating the hormones, increasing the ovary’s function, thi
 <h3>Male Infertility</h3>
 <p>Recent research tells us that, in Australia, one in twenty men is infertile, meaning that male infertility is implicated in one in five cases where a couple is having problems conceiving. The most common cause of male infertility is problems with sperm production, with one in 25 males suffering from a low sperm count.</p><p>Acupuncture and Chinese herbal medicine can increase the sperm count and improve the sperm’s motility and morphology. While sperm quality issues can often improve after 3 months of Acupuncture and Chinese medicine treatment, sometimes it may take longer depending on the severity of the problem. Infertility Acupuncture and Chinese herbal medicine also strengthen the internal organs, such as the kidneys, liver and spleen, adding to the overall health of the male reproductive system.</p><p>Let acupuncture and Chinese herbal medicine aid in your efforts to conceive and carry a healthy pregnancy to term. Contact ACU8 Health on 9387 3389.</p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
 		@include('partial.queryForm')		
-</div>
 </div>
 @endsection

@@ -92,4 +92,3 @@
 			</div>
 		</div>
 	</nav>
-	<img class="img-responsive line" src="/img/line.png">

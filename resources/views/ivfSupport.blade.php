@@ -38,8 +38,8 @@ reproductive and overall health are the foundations of a successful IVF program,
 <p>Acupuncture & Chinese herbs can increase sperm motility and quantity as well as decrease their abnormal forms. For some men whose semen have no sperm and may require testicular biopsy as part of the IVF procedures, acupuncture can help the production of their sperm.</p><p>We recommend once or twice weekly acupuncture treatments for 4-6 weeks prior to sperm donation and 1 treatment before sperm donation to reduce anxiety and increase blood flow to the genital area.</p><p>Let acupuncture and Chinese herbal medicine aid in your efforts to conceive and carry a
 healthy pregnancy to term. Contact ACU8 Health on 9387 3389.</p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
+
 		@include('partial.queryForm')		
-</div>
+
 </div>
 @endsection

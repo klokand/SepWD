@@ -7,8 +7,24 @@ body{
 	min-height: 600px;
 	background-color:white;
 	/*background-color:#621c5b;*/
-	color:gray;
+	color:#796e65;
 	font-size:22px;
+}
+#content p, #content ul li{
+	font-size: 21px;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	color: #666;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+#content h3, #content h4{
+	font-size:23px;
+	font-weight:bold;
 }
 
 /*topbar*/
@@ -122,9 +138,9 @@ color: gray !important;
     left: -6px;
 }
 .dropdown-menu>li>a:hover{
-background-color:transparent;
+background-color:#621c5b;
 width: 114%;
-color: #d3d3d3 ;
+color:#e0d06f ;
 }
 
 }
@@ -159,17 +175,41 @@ left: 10px;
 	top: -16px;
 	color: gray;
 }
-#queryForm{
+#queryForm  .queryForm{
 	background-color: #621c5b;
 	margin: -5px;
 	padding-bottom: 14px;
 	border-radius: 10px;
+}
+.queryForm{
+	background-color: #621c5b;
+	padding-bottom: 14px;
+	border-radius: 10px;
+	margin-top: 21px;
+	margin-bottom: 10px;
 }
 #service{
 	position: relative;
 	top: -15px;
 	border-radius: 10px;
 	/*background-color: #621c5b;*/
+}
+#service  .service1 p{
+	position: relative;
+	top: -8px;
+}
+#service .service2 p{
+	position: relative;
+	left: 20px;
+}
+#service .service3 p{
+	position: relative;
+	left: 22px;
+}
+#service .service4 p{
+	position: relative;
+	left: 21px;
+	top: 0px;
 }
 #service h3{
 	text-align: center;
@@ -225,7 +265,8 @@ padding:0 17px;
 footer{
 	/*background-image:url('/img/purple-bg_2.jpg');
 	background-repeat:repeat;*/
-	min-height:182px
+	min-height:182px;
+	padding-top: 35px;
 }
 
 /*doctors*/

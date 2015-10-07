@@ -29,8 +29,6 @@
 <h3>Is acupuncture safe during pregnancy?</h3>
 <p>Yes, acupuncture is safe during the whole pregnancy.</p><p>Some acupuncture points should not be used during pregnancy, it’s important to choose a practitioner experienced in prenatal acupuncture.</p><p>It’s also important to discuss any treatments or herbal supplements with all of your prenatal health care providers.</p>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
 		@include('partial.queryForm')		
-</div>
 </div>	
 @endsection

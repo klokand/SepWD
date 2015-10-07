@@ -14,8 +14,6 @@ to help produce high-quality eggs. Secondly, these two natural therapies can inc
 Let acupuncture and Chinese herbal medicine aid in your efforts to conceive and carry a 
 healthy pregnancy to term. Contact ACU8 Health on 9387 3389.
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4">
 		@include('partial.queryForm')		
-</div>
 </div>
 @endsection

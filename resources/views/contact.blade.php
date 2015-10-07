@@ -26,6 +26,7 @@ info@acu8.com.au</p>
 </a>
 </p>
 </div>
+@include('partial.queryForm')
 </div>
 @include('partial.map')
 @endsection
