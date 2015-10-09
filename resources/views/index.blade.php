@@ -41,26 +41,32 @@
 	<img class="img-responsive col-md-12" src="/img/specialized.png" />
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/Fertility1.png" />
-	<p>Natural Fertility Support IVF Support</p>
+	<h4>Fertility</h4>
+	<p>Natural Fertility Support IVF Support Male fertility support</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/11.png" />
+	<h4>Pregnancy</h4>
 	<p>Miscarriage Prevention, Morning Sick Pregnancy Care,Labor Induction</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/02.png" />
+	<h4>Women’s Health</h4>
 	<p>Menopause, Endometriosis PCOS，PMS, Irregular Periods</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/03-pain.png" />
+	<h4>Pain Management</h4>
 	<p>Neck, shoulder and Back Pain, Sciatica Headache, Sports Injuries, Arthritis</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/04.png" />
+	<h4>Mental Disorders</h4>
 	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/10.png" />
+	<h4>Skin Disorders</h4>
 	<p>Acne Eczema Urticaria(Hives) Herpes Zoster(Shingles) Alopecia Psoriasis Neurodermatitis</p>
 	</div>
 	</div>

@@ -227,8 +227,15 @@ left: 10px;
 	font-family:Lucida;
 	text-align: center;
 }
-#specialized{
+#specialized h4{
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	font-weight: inherit;
+	text-align:center;
 	/*background-color:#621c5b;*/
+}
+#specialized p{
+	font-size:15px;
+	text-align:center;
 }
 #specialized div img{
 	/*background-color:#621c5b;*/
