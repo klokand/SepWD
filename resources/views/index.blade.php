@@ -47,7 +47,7 @@
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/11.png" />
 	<h4>Pregnancy</h4>
-	<p>Miscarriage Prevention, Morning Sick Pregnancy Care,Labor Induction</p>
+	<p>Miscarriage Prevention Morning Sick Pregnancy Care,Labor Induction, Breech Babies</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/02.png" />
