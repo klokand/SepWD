@@ -37,6 +37,7 @@ are Available depending on your level of cover. Please check with your health
 insurance.</li>
 <li>For Chinese herbal medicine, some health fund rebate are available. Please
 check with your health insurance.</li></ul>
+<img class="img-responsive" src="/img/private health fund rebate.jpg">
 <h3>Cancellations</h3>
 <p>If you cannot attend your appointment or if you need to reschedule, we require 24hrs 
 

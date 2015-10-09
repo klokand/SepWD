@@ -195,6 +195,9 @@ left: 10px;
 	border-radius: 10px;
 	/*background-color: #621c5b;*/
 }
+#service div img{
+	background-color:#621c5b;
+}
 #service  .service1 p{
 	position: relative;
 	top: -8px;
@@ -217,6 +220,9 @@ left: 10px;
 }
 #specialized{
 	/*background-color:#621c5b;*/
+}
+#specialized div img{
+	background-color:#621c5b;
 }
 
 #other_service{

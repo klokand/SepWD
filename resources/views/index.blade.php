@@ -7,6 +7,7 @@
 		<li><img src="/img/slider3.jpg" /></li>
 		<li><img src="/img/slider4.jpg" /></li>
 		<li><img src="/img/slider5.jpg" /></li>
+		<li><img src="/img/slider6.jpg" /></li>
 </ul>
 	<div class="slogan">
 	<p>We are providing natural health solutions to help your fertility and general health.</p>
@@ -43,11 +44,11 @@
 	<p>Natural Fertility Support IVF Support</p>
 	</div>
 	<div class="specialized_text col-md-2">
-	<img class="img-responsive" src="/img/02.png" />
+	<img class="img-responsive" src="/img/11.png" />
 	<p>Miscarriage Prevention, Morning Sick Pregnancy Care,Labor Induction</p>
 	</div>
 	<div class="specialized_text col-md-2">
-	<img class="img-responsive" src="/img/09.png" />
+	<img class="img-responsive" src="/img/02.png" />
 	<p>Menopause, Endometriosis PCOS，PMS, Irregular Periods</p>
 	</div>
 	<div class="specialized_text col-md-2">

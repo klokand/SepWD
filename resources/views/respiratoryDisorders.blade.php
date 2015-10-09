@@ -3,6 +3,7 @@
 <div class="passage col-md-10 col-md-offset-1">
 <div class="col-md-8">
 <h1>Respiratory Disorders</h1>
+<img class="img-responsive" src="/img/respiratory disorders2.jpg">
 <p>Respiratory Disorders are most common issues everyone will suffer from. Genetics, 
 
 environmental conditions, pollution, diet, digestive impairment, lifestyle factors, immune 
