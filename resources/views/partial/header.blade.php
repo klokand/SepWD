@@ -35,8 +35,8 @@
 						<a href="#" data-toggle="dropdown" class="dropdown-toggle">Treatment <b class="caret"></b></a>
 					<ul class="dropdown-menu" id="menu1">
 						<li><a href="/treatment/acupuncture">Acupuncture</a></li>
-						<li><a href="/treatment/chinese herbal medicine">Chinese Herbal Medicine</a></li>
-						<li><a href="/treatment/therapeutic massage">Therapeutic Massage</a></li>
+						<li><a href="/treatment/chinese herbal medicine">Chinese Medicine</a></li>
+						<li><a href="/treatment/therapeutic massage">Remedial Massage</a></li>
 					</ul>
 					</li>
 					

@@ -13,7 +13,7 @@
 	<p>We are providing natural health solutions to help your fertility and general health.</p>
 	</div>
 	<div id="summary1" class="col-md-8">
-	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping and Moxibustion, we assist with a various kinds of health issues and disorders.</p>
+	<p> We love what we do and dedicate ourselves to delivery high level healthcare and the best possible outcomes for all clients. Providing different natural treatments such as <strong>Acupuncture, Chinese Herbal Medicine, Remedial Massage, Cupping</strong> and <strong>Moxibustion</strong>, we assist with a various kinds of health issues and disorders:</p>
 		<div id="service" class="col-md-12">
 		<img class="img-responsive" src="/img/services.png" />
 		<div class="service1 col-md-3 col-sm-6 col-xm-6">
@@ -42,32 +42,32 @@
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/Fertility1.png" />
 	<h4>Fertility</h4>
-	<p>Natural Fertility Support IVF Support Male fertility support</p>
+	<p>Natural Fertility Support</br> IVF Support</br> Male fertility support</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/11.png" />
 	<h4>Pregnancy</h4>
-	<p>Miscarriage Prevention Morning Sick Pregnancy Care,Labor Induction, Breech Babies</p>
+	<p>Miscarriage Prevention,</br> Morning Sick, Pregnancy Care</br>Labor Induction, Breech Babies</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/02.png" />
 	<h4>Women’s Health</h4>
-	<p>Menopause, Endometriosis PCOS，PMS, Irregular Periods</p>
+	<p>Menopause</br> Endometriosis, PCOS</br>PMS, Irregular Periods</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/03-pain.png" />
 	<h4>Pain Management</h4>
-	<p>Neck, shoulder and Back Pain, Sciatica Headache, Sports Injuries, Arthritis</p>
+	<p>Neck, shoulder and Back Pain</br> Sciatica, Headache</br> Sports Injuries, Arthritis</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/04.png" />
 	<h4>Mental Disorders</h4>
-	<p>Insomnia, Stress, Depression Anxiety,  Panic Attack</p>
+	<p>Insomnia, Stress</br> Depression, Anxiety</br>  Panic Attack</p>
 	</div>
 	<div class="specialized_text col-md-2">
 	<img class="img-responsive" src="/img/10.png" />
-	<h4>Skin Disorders</h4>
-	<p>Acne Eczema Urticaria(Hives) Herpes Zoster(Shingles) Alopecia Psoriasis Neurodermatitis</p>
+	<h4>Skin Issues</h4>
+	<p>Acne, Eczema</br>Hives, Shingles, Alopecia</br> Psoriasis, Neurodermatitis</p>
 	</div>
 	</div>
 	<div id="other_service" class="col-md-12">
