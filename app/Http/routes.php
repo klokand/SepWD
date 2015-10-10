@@ -82,3 +82,11 @@ Route::get('/blog', 'PageController@blog');
 Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'PageController@blogDetail']);
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');
+
+Route::get('home', 'HomeController@index');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+
