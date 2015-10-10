@@ -72,7 +72,6 @@
 	</div>
 	<div id="other_service" class="col-md-12">
 		<h3>We also treat other general and difficult conditions, such as:</h3>
-			<p>Skin Issues: Acne, Eczema, Urticaria(Hives), Shingles, Alopecia, Neurodermatitis,</p>
 			<p>Digestive Disorder: Diarrhea, Constipation, IBS, Gastritis, Reflux</p>
 			<p>Respiratory Disorders: Common Cold, Flu, Hayfever, Asthma, Rhinitis, Sinusitis, Chronic Cough</p>
 			<p>Nerve System Diseases: Facioplegia, Apoplectic Sequela, Trigeminal Neuralgia </p>

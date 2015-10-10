@@ -269,10 +269,16 @@ body{
 	-webkit-margin-end: 0px;
 }
 
-#content h1,#content h3, #content h4{
+#content h3, #content h4{
 	font-size:23px;
 	font-weight:bold;
 	font-family:Lucida;
+}
+#content h1{
+	font-size:32px;
+	font-weight:bold;
+	font-family:Lucida;
+	color: #575151;
 }
 
 /*topbar*/
