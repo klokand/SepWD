@@ -44,7 +44,7 @@
 	<h4>Fertility</h4>
 	<p>Natural Fertility Support</br> IVF Support</br> Male fertility support</p>
 	</div>
-	<div class="specialized_text col-md-2">
+	<div class="special-width1 specialized_text col-md-2">
 	<img class="img-responsive" src="/img/11.png" />
 	<h4>Pregnancy</h4>
 	<p>Miscarriage Prevention,</br> Morning Sick, Pregnancy Care</br>Labor Induction, Breech Babies</p>
@@ -54,7 +54,7 @@
 	<h4>Women’s Health</h4>
 	<p>Menopause</br> Endometriosis, PCOS</br>PMS, Irregular Periods</p>
 	</div>
-	<div class="specialized_text col-md-2">
+	<div class="special-width2 specialized_text col-md-2">
 	<img class="img-responsive" src="/img/03-pain.png" />
 	<h4>Pain Management</h4>
 	<p>Neck, shoulder and Back Pain</br> Sciatica, Headache</br> Sports Injuries, Arthritis</p>

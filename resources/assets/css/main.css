@@ -253,6 +253,12 @@ left: 10px;
 	font-size:13px;
 	text-align:center;
 }
+#specialized .special-width1 p{
+	width: 111%;
+}
+#specialized .special-width2 p{
+	width: 165px;
+}
 #specialized div img{
 	/*background-color:#621c5b;*/
 }
