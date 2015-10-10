@@ -11,7 +11,7 @@ Opening Hours: Monday to Saturday 9:00am-6:00pm</p>
 <p>Email</br>
 info@acu8.com.au</p>
 <p>Follow Us</br>
-<a href="#">
+<a href="https://instagram.com/acu8health/">
 <i class="fa fa-instagram fa-4x"></i>
 </a>
 <a href="https://www.facebook.com/acu8acupuncture">
@@ -20,7 +20,7 @@ info@acu8.com.au</p>
 <a href="#">
 <i class="fa fa-twitter-square fa-4x"></i>
 </a>
-<a href="#">
+<a href="https://plus.google.com/116196470141315339591/about">
 <i class="fa fa-google-plus-square fa-4x"></i>
 </a>
 </p>
