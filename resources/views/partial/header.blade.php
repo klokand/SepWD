@@ -74,7 +74,7 @@
 					@if(Request::path() == 'blog')
 					class="active"
 					@endif
-					><a href="/blog">Blog</a></li>
+					><a href="/blogs">Blog</a></li>
 
 					<li 
 					@if(Request::path() == 'fees')

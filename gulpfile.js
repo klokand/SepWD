@@ -19,7 +19,9 @@ elixir(function(mix) {
 		'vendor/css/font-awesome.min.css',
 		'vendor/css/jquery.directional-hover.min.css',
 		'vendor/css/jquery.social-buttons.css',
-		'css/main.css'
+		'vendor/css/froala_editor.min.css',
+		'css/main.css',
+		'css/appback.css'
 	],'public/output/final.css','resources/assets');
 	mix.scripts([
 		'vendor/js/jquery.min.js',
@@ -29,7 +31,9 @@ elixir(function(mix) {
 		'vendor/js/jquery.directional-hover.min.js',	
 		'vendor/js/lightbox.min.js',
 		'vendor/js/jquery.social-buttons.js',
-		'js/main.js'
+		'vendor/js/froala_editor.min.js',
+		'js/main.js',
+		'js/appback.js'
 	],'public/output/final.js','resources/assets');
 	mix.copy('resources/assets/img','public/img');
 	mix.copy('resources/assets/vendor/images','public/output/images');
