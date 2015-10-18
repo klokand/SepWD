@@ -82,6 +82,7 @@ Route::get('/blogs', 'PageController@blog');
 Route::get('/blogs/{id}',['as'=>'blogDetail','uses'=>'PageController@blogDetail']);
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');
+Route::post('sendingMessage', 'PageController@email');
 
 Route::resource('blog', 'blogController');
 

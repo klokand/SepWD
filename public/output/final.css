@@ -397,9 +397,9 @@ color: gray !important;
     left: -6px;
 }
 .dropdown-menu>li>a:hover{
-background-color:#621c5b;
-width: 114%;
-color:#e0d06f ;
+background-color:#621c5b!important;
+width: 114%!important;
+color:#e0d06f!important ;
 }
 
 }
@@ -407,6 +407,11 @@ color:#e0d06f ;
 .contact-top{
 	position: relative;
 	top: 55px;
+	color:white;
+}
+.contact-top p img.phone{
+	background-color:white;
+	border-radius:16px;
 }
 /*slider*/
 .bx-wrapper ul.bxslider li img{
@@ -556,6 +561,7 @@ footer{
 	background-repeat:repeat;*/
 	min-height:182px;
 	padding-top: 35px;
+	color:white;
 }
 
 /*doctors*/
