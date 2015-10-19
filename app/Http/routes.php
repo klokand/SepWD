@@ -78,13 +78,13 @@ Route::group(['prefix' => 'generalHealth'], function()
 });
 
 Route::get('/general', 'PageController@general');
-Route::get('/blogs', 'PageController@blog');
-Route::get('/blogs/{id}',['as'=>'blogDetail','uses'=>'PageController@blogDetail']);
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');
 Route::post('sendingMessage', 'PageController@email');
 
-Route::resource('blog', 'blogController');
+Route::get('/blogs', 'BlogController@index');
+Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'BlogController@show']);
+Route::get('createBlog', 'blogController@create');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

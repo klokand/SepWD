@@ -163,10 +163,10 @@ color:#e0d06f!important ;
 .contact-top{
 	position: relative;
 	top: 55px;
-	color:white;
+	color:rgba(198, 171, 86, 1);
 }
 .contact-top p img.phone{
-	background-color:white;
+	background-color:rgba(198, 171, 86, 1);
 	border-radius:16px;
 }
 /*slider*/
@@ -317,7 +317,7 @@ footer{
 	background-repeat:repeat;*/
 	min-height:182px;
 	padding-top: 35px;
-	color:white;
+	color:rgba(198, 171, 86, 1);
 }
 
 /*doctors*/
@@ -369,6 +369,10 @@ footer{
 	text-align: center;
 	color: oldlace;
 }
+#box li h1{
+	color:white;
+}
+
 .blog{
 	opacity: 0.5;
 }
