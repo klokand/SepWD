@@ -584,6 +584,10 @@ footer{
 }
 
 /*blog*/
+/*create blog*/
+#blog{
+	background-color:white;
+}
 #box {
   background:rgba(98, 28, 91, 1);
   overflow: hidden;

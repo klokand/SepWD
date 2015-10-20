@@ -85,6 +85,7 @@ Route::post('sendingMessage', 'PageController@email');
 Route::get('/blogs', 'BlogController@index');
 Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'BlogController@show']);
 Route::get('createBlog', 'blogController@create');
+Route::post('add_new_post',['as'=>'add_new_post','uses'=>'BlogController@store']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
