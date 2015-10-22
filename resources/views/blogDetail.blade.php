@@ -9,7 +9,7 @@
 		<input type="hidden" name="_url" value="{{Request::root()}}/{{ Request::path() }}">
 			<h1>{{$blog->title}}</h1>
 			<div class="author col-md-6">Post by <h4>{{$blog->author}}</h4></div>
-			<div class="post-date col-md-3 col-md-offset-3">Sep/30/2015</div>
+			<div class="post-date col-md-3 col-md-offset-3">{{$blog->created_at->format('M j, Y')}}</div>
 			<div class="blog-passage col-md-12">
 			<p class="blog-summary">{{$blog->summary}}</p><p>
 

@@ -23,13 +23,13 @@ class BlogController extends Controller {
 	
 	public function panel()
 	{
-		$blogs = Blog::all()->sortByDesc('created_at');
+		$blogs = Blog::where('state','=',1)->orderBy('created_at', 'desc')->paginate(10);
 		return view('blogList')->with(compact('blogs'));
 	}
 	 
 	public function index()
 	{
-		$blogs = Blog::all()->sortByDesc('created_at');
+		$blogs = Blog::where('state','=',1)->orderBy('created_at', 'desc')->paginate(5);
 		return view('blog')->with(compact('blogs'));
 	}
 	
@@ -69,7 +69,7 @@ class BlogController extends Controller {
 						'title'=>Input::get('title'),
 						'coverImage'=>$filename,
 					));
-				return Redirect::to('blogs');
+				return Redirect::to('adminPanel');
 				}
 		}else{
 			$error = $validation->errors()->first();
@@ -114,6 +114,36 @@ class BlogController extends Controller {
 	 */
 	public function update($id)
 	{
+		$id = Input::get('id');
+		$blog = Blog::find($id);
+		$input = Input::all();
+		$validation = Validator::make($input,Blog::$blog_update_rules);
+		if($validation->passes()){
+			if(is_null(Input::file('coverImage'))){
+					$blog->title = Input::get('title');
+					$blog->summary = Input::get('summary');
+					$blog->content = Input::get('blogContent');
+					$blog->save();
+			}else{
+				$image = Input::file('coverImage');
+				$extension = $image->getClientOriginalExtension();
+				$filename = sha1(time().time()).".{$extension}";
+				$upload_success=\Image::make($image)->resize(900,600)->save(\Config::get('image.blog_image').$filename);
+			if($upload_success){
+					$blog->title = Input::get('title');
+					$blog->coverImage = $filename;
+					$blog->summary = Input::get('summary');
+					$blog->content = Input::get('blogContent');
+
+					$blog->save();
+				}
+			}
+			
+			return Redirect::to('adminPanel');
+		}else{
+			$error = $validation->errors()->first();
+			return Redirect::action('BlogController@edit')->withInput(Input::all())->with(compact('error'));
+		}	
 		
 	}
 
@@ -123,9 +153,12 @@ class BlogController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function suspend($id)
 	{
-		//
+		$blog = Blog::find($id);
+		$blog->state=0;
+		$blog->save();
+		return Redirect::to('adminPanel');
 	}
 
 }

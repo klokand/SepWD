@@ -20,6 +20,7 @@ class CreateBlogsTable extends Migration {
 			$table->string('author')->default('Acu8health');
 			$table->text('summary')->default('');
 			$table->text('content')->default('');
+			$table->integer('state')->default(1);
 			$table->timestamps();
 		});
 	}

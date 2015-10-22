@@ -76,7 +76,11 @@ Route::group(['prefix' => 'generalHealth'], function()
         return view('respiratoryDisorders');
     });
 });
-
+/*
+Route::get('/auth/register',function(){
+	return Redirect::to('/');
+});
+*/
 Route::get('/general', 'PageController@general');
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');
@@ -87,7 +91,10 @@ Route::get('/blog/{id}',['as'=>'blogDetail','uses'=>'BlogController@show']);
 Route::get('/blog/{id}/update','BlogController@edit');
 Route::get('createBlog', 'blogController@create');
 Route::post('add_new_post',['as'=>'add_new_post','uses'=>'BlogController@store']);
-Route::get('adminPanel','BlogController@panel');
+Route::get('adminPanel',['as'=>'adminPanel','uses'=>'BlogController@panel']);
+Route::get('home',['as'=>'adminPanel','uses'=>'BlogController@panel']);
+Route::post('/blog/{id}/update',['as'=>'update_post','uses'=>'BlogController@update']);
+Route::get('/blog/{id}/suspend', 'blogController@suspend');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

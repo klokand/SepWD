@@ -9,6 +9,7 @@
 				</div>
 			</li>
 		@endforeach
+		<?php echo $blogs->render(); ?>
 	@else
 	<p>No article at the moment</p>
 	@endif

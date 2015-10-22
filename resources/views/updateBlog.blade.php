@@ -14,8 +14,9 @@
 </div>
 <div id="blog" class="passage col-md-10 col-md-offset-1">
 			<h1>Update Blog </li>
-			<form id="create_post" name="add_post" method="POST" action="{{URL::route('add_new_post')}}" enctype="multipart/form-data">
+			<form id="create_post" name="add_post" method="POST" action="{{URL::route('update_post')}}" enctype="multipart/form-data">
 				<input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+				<input type="hidden" name="id" value="{{$blog->id}}">
 				<div class="form-group">
 				<label for="title">Title</label>
 				<input type="text" class="form-control" name="title" placeholder="Post Title" value="{{$blog->title}}" required/>
@@ -28,12 +29,12 @@
 				
 				<div class="form-group">
 				<label for="summary">Summary</label>
-				<textarea id="blogSummary" name="summary" class="form-control" placeholder="summary" value="{{$blog->summary}}" required></textarea>
+				<textarea id="blogSummary" name="summary" class="form-control" placeholder="summary" required>{{$blog->summary}}</textarea>
 				</div>
 				
 				<div class="form-group">
 				<label for="content">Content</label>
-				<textarea id="blogContent" name="content" class="form-control" placeholder="Content" value="{{$blog->content}}" required></textarea>
+				<textarea id="blogContent" name="content" class="form-control" placeholder="Content" required>{{$blog->content}}</textarea>
 				<input type="hidden" name="blogContent" value="{{ old('blogContent') }}">
 				</div>
 				
