@@ -247,6 +247,9 @@ left: 10px;
 	font-family:Lucida;
 	text-align: center;
 }
+#queryForm{
+	height:500px;
+}
 #specialized h4{
 	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-weight: inherit;
@@ -431,5 +434,8 @@ footer{
 #blog-detail .blog-content .blog-passage p.blog-summary{
 	font-family: cursive;
 	font-size: 24px;
+}
+#blogList{
+	background-color:white;
 }
 

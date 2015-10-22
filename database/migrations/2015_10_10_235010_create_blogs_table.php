@@ -17,7 +17,7 @@ class CreateBlogsTable extends Migration {
 			$table->increments('id');
 			$table->string('coverImage')->default('');
 			$table->string('title')->default('');
-			$table->string('author')->default('');
+			$table->string('author')->default('Acu8health');
 			$table->text('summary')->default('');
 			$table->text('content')->default('');
 			$table->timestamps();

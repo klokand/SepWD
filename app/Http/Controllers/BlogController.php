@@ -20,10 +20,21 @@ class BlogController extends Controller {
 	{
 		$this->middleware('auth',['except' => ['index','show']]);
 	}
+	
+	public function panel()
+	{
+		$blogs = Blog::all()->sortByDesc('created_at');
+		return view('blogList')->with(compact('blogs'));
+	}
 	 
 	public function index()
 	{
-		return view('blog');
+		$blogs = Blog::all()->sortByDesc('created_at');
+		return view('blog')->with(compact('blogs'));
+	}
+	
+	public function adminBlogList(){
+		return view ('adminBlogList');
 	}
 
 	/**
@@ -46,24 +57,23 @@ class BlogController extends Controller {
 		$input = Input::all();
 		$validation = Validator::make($input,Blog::$blog_rules);
 		if($validation->passes()){
-			
 				$image = Input::file('coverImage');
 				$extension = $image->getClientOriginalExtension();
 				$filename = sha1(time().time()).".{$extension}";
-				$upload_success=\Image::make($image)->resize(700,500)->save(\Config::get('image.news_image').$filename);
+				$upload_success=\Image::make($image)->resize(900,600)->save(\Config::get('image.blog_image').$filename);
 
 			if($upload_success){
 					Blog::create(array(
-						'author' => Input::get('author'),
-						'content'=>Input::get('content'),
+						'summary' => Input::get('summary'),
+						'content'=>Input::get('blogContent'),
 						'title'=>Input::get('title'),
 						'coverImage'=>$filename,
 					));
-				return Redirect::to('blog');
+				return Redirect::to('blogs');
 				}
 		}else{
 			$error = $validation->errors()->first();
-			return Redirect::to('blog')->withInput(Input::all())->with(compact('error'));
+			return Redirect::to('createBlog')->withInput(Input::all())->with(compact('error'));
 		}	
 	}
 
@@ -75,14 +85,13 @@ class BlogController extends Controller {
 	 */
 	public function show($id)
 	{
-		$data =[];
-		$data['title']='test';
-		$data['url']='www.test.com';
-
-		//return view('blogDetail')->with('data',$data);
-		return view('blogDetail')->with(['title' =>'Chinese Herbal Medicine--Acu8health',
-		'url'=>'http://localhost:8080/blog/5sdfrer','img'=>'http://localhost:8080/img/test1.jpg','summary'=>'this is the summary']);
-	}
+		$blog = Blog::find($id);
+		$title = $blog->title;
+		$url = '/blog/'.$blog->id;
+		$img = $blog->coverImage;
+		$summary = $blog->summary;
+		return view('blogDetail')->with(compact('blog','title','url','img','summary'));
+		}
 	
 
 	/**
@@ -93,7 +102,8 @@ class BlogController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$blog = Blog::find($id);
+		return view ('updateBlog')->with(compact('blog'));
 	}
 
 	/**
@@ -104,7 +114,7 @@ class BlogController extends Controller {
 	 */
 	public function update($id)
 	{
-		//
+		
 	}
 
 	/**

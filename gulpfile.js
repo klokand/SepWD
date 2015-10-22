@@ -19,7 +19,7 @@ elixir(function(mix) {
 		'vendor/css/font-awesome.min.css',
 		'vendor/css/jquery.directional-hover.min.css',
 		'vendor/css/jquery.social-buttons.css',
-		'vendor/css/froala_editor.min.css',
+		'vendor/css/jquery-te-1.4.0.css',
 		'css/main.css',
 		'css/appback.css'
 	],'public/output/final.css','resources/assets');
@@ -31,7 +31,7 @@ elixir(function(mix) {
 		'vendor/js/jquery.directional-hover.min.js',	
 		'vendor/js/lightbox.min.js',
 		'vendor/js/jquery.social-buttons.js',
-		'vendor/js/froala_editor.min.js',
+		'vendor/js/jquery-te-1.4.0.min.js',
 		'js/main.js',
 		'js/appback.js'
 	],'public/output/final.js','resources/assets');
