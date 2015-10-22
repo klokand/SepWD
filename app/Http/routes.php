@@ -76,11 +76,11 @@ Route::group(['prefix' => 'generalHealth'], function()
         return view('respiratoryDisorders');
     });
 });
-/*
+
 Route::get('/auth/register',function(){
 	return Redirect::to('/');
 });
-*/
+
 Route::get('/general', 'PageController@general');
 Route::get('/fees', 'PageController@fees');
 Route::get('/contact', 'PageController@contact');
