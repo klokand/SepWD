@@ -8,8 +8,11 @@
 	<link href="/output/final.css" rel="stylesheet">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<meta name=”description” content=”Perth Fertility and Healing Acupuncture Centre”>
+	<link rel=”author” href=”https://plus.google.com/116196470141315339591”/>
 	@if(Route::currentRouteName() == 'blogDetail')
 	<meta property="og:title" content='{{$title}}'>
+	<meta property="og:type" content=”article”/>
 	<meta property="og:url" content='{{$url}}'>
 	<meta property="og:image" content='{{$img}}'>
 	<meta property="og:description" content='{{$summary}}'>
