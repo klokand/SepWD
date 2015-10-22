@@ -14,7 +14,7 @@
 	<meta property="og:title" content='{{$title}}'>
 	<meta property="og:type" content=”article”/>
 	<meta property="og:url" content='{{$url}}'>
-	<meta property="og:image" content='{{$img}}'>
+	<meta property="og:image" content='/uploads/{{$img}}'>
 	<meta property="og:description" content='{{$summary}}'>
 	@endif
 
